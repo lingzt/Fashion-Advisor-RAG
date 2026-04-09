@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Data (too large for git)
+backend/data/images/
+backend/data/annotations/
+backend/chroma_db/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# Temp files
+backend/mask_preview_*.png
+
+# OS
+.DS_Store
